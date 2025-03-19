@@ -38,33 +38,33 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 
    - Lista los archivos y directorios en `/home`. ¿Cómo puedes listarlos de manera detallada (mostrando permisos y tamaño)?
 
-   > - ### ls -lh /home
+     > - ### ls -lh /home
 
    - Crea un nuevo directorio llamado `practica-linux` dentro de `/tmp`. ¿Qué comando necesitas?
 
-   > - ### mkdir /tmp/practica-linux
+     > - ### mkdir /tmp/practica-linux
 
 2. **Manipulación de archivos:**
 
    - Crea un archivo vacío llamado `config.txt` dentro de `practica-linux`. ¿Cómo lo harías?
 
-   > - ### touch /tmp/practica-linux/config.txt
+     > - ### touch /tmp/practica-linux/config.txt
 
    - Escribe algunas líneas de texto en `config.txt`. ¿Qué comando te permite agregar texto a un archivo?
 
-   > - ### echo "Esta es la primera línea" >> /tmp/practica-linux/config.txt
-   > - ### echo "Esta es la segunda línea" >> /tmp/practica-linux/config.txt
-   > - ### echo "Esta es la tercera línea" >> /tmp/practica-linux/config.txt
+     > - ### echo "Esta es la primera línea" >> /tmp/practica-linux/config.txt
+     > - ### echo "Esta es la segunda línea" >> /tmp/practica-linux/config.txt
+     > - ### echo "Esta es la tercera línea" >> /tmp/practica-linux/config.txt
 
    - Muestra el contenido del archivo. ¿Cómo puedes hacerlo sin abrir un editor?
 
-   > - ### cat /tmp/practica-linux/config.txt
+     > - ### cat /tmp/practica-linux/config.txt
 
 3. **Búsqueda de archivos:**
 
    - Busca todos los archivos `.txt` en `/tmp`. ¿Qué comando puedes usar para buscar archivos específicos?
 
-   > - ### find /tmp -name "\*.txt"
+     > - ### find /tmp -name "\*.txt"
 
 #### **2.2. Preguntas de reflexión**
 
