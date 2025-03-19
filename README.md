@@ -82,6 +82,9 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 1. **Creación de un usuario:**
 
    - Crea un usuario llamado `devuser`. Investiga qué comando se usa para crear usuarios y cómo asignarles contraseñas.
+     > - ### Creo el usuario con `sudo adduser devuser`
+     > - ### Compruebo que se ha creado con `id devuser`
+     > - ### Cambio la contraseña con `sudo passwd devuser`
 
 2. **Gestión de permisos:**
 
