@@ -89,7 +89,21 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 2. **Gestión de permisos:**
 
    - Cambia el propietario de `config.txt` a `devuser`. ¿Qué comando te permite cambiar el propietario de un archivo?
+
+     > - ### Primero veo el usuario actual del archivo:
+     > - ### -rw-rw-r-- 1 ubuntu ubuntu 78 Mar 19 19:07 config.txt
+     > - ### Ahora cambio el usuario:
+     > - ### sudo chown devuser /tmp/practica-linux/config.txt
+     > - ### El cambio se puede ver:
+     > - ### -rw-rw-r-- 1 devuser ubuntu 78 Mar 19 19:07 config.txt
+
    - Modifica los permisos de `config.txt` para permitir solo lectura. ¿Qué número debes usar con `chmod` para este propósito?
+     > - ### El estado actual es este:
+     > - ### -rw-rw-r-- 1 devuser ubuntu 78 Mar 19 19:07 config.txt
+     > - ### Combiamos a solo lectura con:
+     > - ### sudo chmod 444 /tmp/practica-linux/config.txt
+     > - ### El resulta es:
+     > - ### -r--r--r-- 1 devuser ubuntu 78 Mar 19 19:07 config.txt
 
 3. **Prueba de permisos:**
    - Intenta editar `config.txt` como el usuario actual. ¿Qué sucede? Luego cambia al usuario `devuser` y vuelve a intentarlo. ¿Cómo puedes cambiar temporalmente de usuario desde la terminal?
