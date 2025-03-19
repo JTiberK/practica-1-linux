@@ -69,8 +69,10 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 #### **2.2. Preguntas de reflexión**
 
 - ¿Qué diferencia hay entre `pwd` y `ls`?
+
      > - ### pwd (abreviatura de "print working directory") muestra la ruta completa del directorio en el que te encuentras actualmente.
      > - ### ls (abreviatura de "list") lista los archivos y directorios en un directorio específico. Si no se especifica un directorio, ls lista los archivos y directorios en el directorio actual.
+
 - ¿Cómo puedes verificar si un archivo existe antes de intentar modificarlo?
 
 ---
