@@ -48,17 +48,29 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 
    - Crea un archivo vacío llamado `config.txt` dentro de `practica-linux`. ¿Cómo lo harías?
 
-   touch /tmp/practica-linux/config.txt
+   > - ### touch /tmp/practica-linux/config.txt
 
    - Escribe algunas líneas de texto en `config.txt`. ¿Qué comando te permite agregar texto a un archivo?
+
+   > - ### echo "Esta es la primera línea" >> /tmp/practica-linux/config.txt
+   > - ### echo "Esta es la segunda línea" >> /tmp/practica-linux/config.txt
+   > - ### echo "Esta es la tercera línea" >> /tmp/practica-linux/config.txt
+
    - Muestra el contenido del archivo. ¿Cómo puedes hacerlo sin abrir un editor?
 
+   > - ### cat /tmp/practica-linux/config.txt
+
 3. **Búsqueda de archivos:**
+
    - Busca todos los archivos `.txt` en `/tmp`. ¿Qué comando puedes usar para buscar archivos específicos?
+
+   > - ### find /tmp -name "\*.txt"
 
 #### **2.2. Preguntas de reflexión**
 
 - ¿Qué diferencia hay entre `pwd` y `ls`?
+  > - ### pwd (abreviatura de "print working directory") muestra la ruta completa del directorio en el que te encuentras actualmente.
+  > - ### ls (abreviatura de "list") lista los archivos y directorios en un directorio específico. Si no se especifica un directorio, ls lista los archivos y directorios en el directorio actual.
 - ¿Cómo puedes verificar si un archivo existe antes de intentar modificarlo?
 
 ---
