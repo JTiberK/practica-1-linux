@@ -34,7 +34,7 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 
    - Verifica tu directorio actual. ¿Qué comando puedes usar para esto?
 
-   > - ### pwd
+     > - ### pwd
 
    - Lista los archivos y directorios en `/home`. ¿Cómo puedes listarlos de manera detallada (mostrando permisos y tamaño)?
 
@@ -69,8 +69,8 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 #### **2.2. Preguntas de reflexión**
 
 - ¿Qué diferencia hay entre `pwd` y `ls`?
-  > - ### pwd (abreviatura de "print working directory") muestra la ruta completa del directorio en el que te encuentras actualmente.
-  > - ### ls (abreviatura de "list") lista los archivos y directorios en un directorio específico. Si no se especifica un directorio, ls lista los archivos y directorios en el directorio actual.
+     > - ### pwd (abreviatura de "print working directory") muestra la ruta completa del directorio en el que te encuentras actualmente.
+     > - ### ls (abreviatura de "list") lista los archivos y directorios en un directorio específico. Si no se especifica un directorio, ls lista los archivos y directorios en el directorio actual.
 - ¿Cómo puedes verificar si un archivo existe antes de intentar modificarlo?
 
 ---
