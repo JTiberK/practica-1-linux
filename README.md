@@ -34,15 +34,15 @@ Configurar un entorno de desarrollo básico en Linux, familiarizándose con coma
 
    - Verifica tu directorio actual. ¿Qué comando puedes usar para esto?
 
-   > - pwd
+   > - ### pwd
 
    - Lista los archivos y directorios en `/home`. ¿Cómo puedes listarlos de manera detallada (mostrando permisos y tamaño)?
 
-   > - ls -lh /home
+   > - ### ls -lh /home
 
    - Crea un nuevo directorio llamado `practica-linux` dentro de `/tmp`. ¿Qué comando necesitas?
 
-   > - mkdir /tmp/practica-linux
+   > - ### mkdir /tmp/practica-linux
 
 2. **Manipulación de archivos:**
 
